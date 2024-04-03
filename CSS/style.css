@@ -458,3 +458,260 @@ footer ul{
 }
 
 
+/* about styling */
+
+.aboutMain {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(../IMAGES/work.jpg);
+  position: relative; 
+  padding-bottom: 50px;
+}
+
+.aboutMain::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.671); 
+}
+
+.aboutInner1 {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 100px;
+  position: relative; 
+  z-index: 1; 
+}
+
+.aboutInner2 {
+  text-align: center;
+  width: 100%;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.txt1{
+  margin-top: 50px;
+}
+
+.txt3{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.379);
+}
+
+.txt2{
+  font-size: 30px;
+  font-family:sans-serif;
+  font-weight: bolder;
+}
+
+.abtbook{
+  background-color: transparent !important;
+  border: #EF5C54 2px solid !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+  padding: 10px 40px !important;
+}
+
+.abtbook:hover{
+  background-color: #EF5C54 !important;
+  color: white !important;
+}
+
+.abtnav {
+  background-color: transparent; 
+  border: rgba(0, 0, 0, 0.197) 1px solid;
+}
+
+.abtnav-item a{
+  color: white;
+  
+}
+
+.scrolled {
+  background-color: #252525;
+}
+
+@media (max-width: 991.98px) {
+  .abtnav {
+    background-color: white; 
+    border: rgba(0, 0, 0, 0.197) 1px solid;
+  }
+  
+  .abtnav-item a{
+    color: black;
+    
+  }
+
+  .abtbook{
+    background-color: white !important;
+    border: #EF5C54 2px solid !important;
+    color: black !important;
+    font-size: 12px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    padding: 10px 40px !important;
+  }
+  
+  .abtbook:hover{
+    background-color: #EF5C54 !important;
+    color: white !important;
+  }
+
+  .txt2{
+    font-size: 18px;
+    font-family:sans-serif;
+    font-weight: bolder;
+  }
+
+  .aboutMain {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../IMAGES/work.jpg);
+    background-size:cover;
+    position: relative; 
+    padding-bottom: 50px;
+  }
+
+ 
+  
+}
+
+.abtmain1{
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.abticon{
+  color: white;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #EF5C54;
+
+
+}
+
+.clientimg{
+  width: 100%;
+  padding-top: 20px;
+}
+
+.clienttxt{
+  font-size: 40px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.clienttxt2{
+ color:#839FAD;
+  
+}
+
+.abticon2{
+  color: #EF5C54;
+}
+
+.clients{
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-image: url(../IMAGES/endless-constellation.png);
+  background-size:10%;
+}
+
+/* our team */
+
+.our-team{
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+.our-team:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  transition:all 0.3s ease 0s;
+  opacity: 0;
+}
+.our-team:hover:before{
+  opacity: 1;
+}
+.our-team img{
+  width: 100%;
+  height: auto;
+}
+.our-team .team-content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
+  background-color:#ef5c54b9;
+  transition:all 0.3s ease 0s;
+}
+.our-team:hover .team-content{
+  bottom: 20%;
+}
+.our-team .team-content .name{
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  transition:all 0.3s ease 0s;
+}
+.our-team:hover .team-content .name{
+  transform:translateY(30px);
+  transition-delay:0.3s;
+}
+.our-team .team-content .post{
+  font-size: 17px;
+  display: block;
+  transition:all 0.3s ease 0s;
+  text-transform: capitalize;
+}
+.our-team:hover .team-content .post{
+  transform:translateY(-30px);
+  transition-delay:0.3s;
+}
+
+@media screen and (max-width:990px){
+  .our-team{
+      margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .abtmain1{
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .clienttxt{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+}

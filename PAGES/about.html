@@ -24,7 +24,7 @@
 </head>
 <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top abtnav" id="navbar">
         <div class="container">
           <a class="navbar-brand" href="./index.html">
             <img src="../IMAGES/logo.png" alt="Logo" height="40">
@@ -34,32 +34,152 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
+              <li class="nav-item abtnav-item">
                 <a class="nav-link" href="../index.html">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item abtnav-item">
                 <a class="nav-link" href="./about.html">About</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item abtnav-item">
                 <a class="nav-link" href="./services.html">Services</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item abtnav-item">
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item abtnav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
               </li>
               <li class="nav-item d-lg-none">
-                <a class="nav-link btn btn-primary btn-hover book" href="#" onclick="openCalendlyPopup();">BOOK DISCOVERY CALL ></a>
+                <a class="nav-link btn btn-primary btn-hover book abtbook" href="#" onclick="openCalendlyPopup();">BOOK DISCOVERY CALL ></a>
               </li>
             </ul>
           </div>
           <div class="d-none d-lg-block">
-            <a class="btn btn-primary btn-hover book" href="#" onclick="openCalendlyPopup();">BOOK DISCOVERY CALL ></a>
+            <a class="btn btn-primary btn-hover book abtbook" href="#" onclick="openCalendlyPopup();">BOOK DISCOVERY CALL ></a>
           </div>
         </div>
       </nav>
 
+    <section class="aboutMain">
+        <div class="aboutInner1">
+            <p class="txt1">
+                About
+            </p>
+            <p class="txt2">
+                AR-LÍNE CONSULTING LIMITED
+        
+            </p>
+
+        </div>
+        <div class="aboutInner2">
+            <p class="txt3">
+                Home / <span style="color: rgba(255, 255, 255, 0.447);">About Us</span>
+            </p>
+        </div>
+    </section>
+
+    <div class="abtmain1">
+      We help entreprenuers starts up and <br> turn their ideas into products
+    </div>
+
+    <section class="sec9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+  
+            <div style="background-color: white;" class="counter-container">
+              <i class="abticon fa fa-solid fa-thumbs-up"></i>
+              <div style="color:black" class="counter" id="yearsCounter" data-target-value="40">0</div>
+              <div style="color:rgba(0, 0, 0, 0.673)"  class="counter-text">YEARS OF EXPERIENCE</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div style="background-color: white;" class="counter-container">
+              <i class="abticon fa fa-solid fa-check"></i>
+              <div style="color:black" class="counter" id="partnersCounter" data-target-value="16">0</div>
+              <div style="color:rgba(0, 0, 0, 0.673)"  class="counter-text">PROJECTS DONE</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div style="background-color: white;" class="counter-container">
+              <i class="abticon fa fa-solid fa-trophy"></i>
+              <div style="color:black" class="counter" id="clientsCounter" data-target-value="120">0</div>
+              <div style="color:rgba(0, 0, 0, 0.673)"  class="counter-text">CLIENTS WORLDWIDE</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="clienttxt">
+              Helping our Client Get Online Since 2022
+            </h1>
+            <p class="clienttxt2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint earum, eos esse non error facilis ad, maiores eum quae vero libero voluptas! Reprehenderit sunt similique, quae quidem voluptatem odit natus.
+            </p>
+            <p class="clienttxt3"> <i class="abticon2 fa fa-solid fa-check"></i>
+              Create and manage any process for your business needs.
+            </p>
+            <p class="clienttxt3"><i class="abticon2 fa fa-solid fa-check"></i>
+              Create and manage any process for your business needs.
+            </p>
+            <p class="clienttxt3"><i class="abticon2 fa fa-solid fa-check"></i>
+              Full functionality without needed to install software.
+            </p>
+            <a class="btn btn-primary btn-hover book2" href="#">ALL SERVICES</a>
+  
+          </div>
+          <div class="col-md-6">
+            <img class="clientimg" src="../IMAGES/customer-3864809_1920.jpg" alt="" srcset="">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- team -->
+    <div class="abtmain1">
+      Our Team
+      <p style="font-size: 15px; font-weight:normal">Today’s users expect effortless experiences. Don’t let essential people and processes stay stuck <br> in the past. Speed it up, skip the hassles</p>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-6">
+              <div class="our-team">
+                  <img src="https://images.pexels.com/photos/157646/title-photo-logo-shirt-157646.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="team member" class="img-responsive">
+                  <div class="team-content">
+                      <h3 class="name">Peter</h3>
+                      <span class="post">web designer</span>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-6">
+              <div class="our-team">
+                  <img src="https://static.pexels.com/photos/38554/girl-people-landscape-sun-38554.jpeg" alt="team member" class="img-responsive">
+                  <div class="team-content">
+                      <h3 class="name">Kellie Smith</h3>
+                      <span class="post">web designer</span>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4 col-sm-6">
+              <div class="our-team">
+                  <img src="https://images.pexels.com/photos/157646/title-photo-logo-shirt-157646.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="team member" class="img-responsive">
+                  <div class="team-content">
+                      <h3 class="name">Johnson</h3>
+                      <span class="post">web designer</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
