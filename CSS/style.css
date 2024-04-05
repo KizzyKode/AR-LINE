@@ -896,6 +896,11 @@ footer ul{
     padding-bottom: 50px;
     
   }
+
+  .container{
+    width: 90% !important;
+    margin-left: 5% !important;
+  }
   
 
 }
