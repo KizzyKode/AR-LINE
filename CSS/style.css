@@ -731,7 +731,132 @@ footer ul{
   height: 100%;
 }
 
+/* contact */
 
+.con1{
+  border: 1px solid rgba(0, 0, 0, 0.083);
+  padding-top: 40px;
+  padding-left: 40px !important;
+  height: 400px;
+  text-align: center;
+
+}
+
+.contacttxt1{
+  color: #EF5C54;
+  padding-top: 50px;
+}
+
+.contacttxt2{
+  font-weight:bolder;
+  padding-bottom: 30px;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.376) !important;
+  font-size: 13px;
+}
+
+.conhead{
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.headtxt{
+  font-size: 12px;
+  text-align: left;
+}
+
+.conicon{
+  font-size: 20px;
+  color: #EF5C54;
+  padding-left: 20px;
+  padding-top: 30px;
+  
+}
+
+#contactForm{
+  padding-bottom: 30px;
+}
+
+.map{
+  width: 100%;
+  height: 400px;
+  padding-bottom: 50px;
+}
+
+/* services */
+
+.servicesImg{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.servicesrow{
+  padding-top: 50px;
+
+}
+
+.servicestxt1{
+  color: #EF5C54;
+  padding-bottom: 20px;
+}
+
+.servicestxt2{
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.servicecon{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.industry{
+  height: 150px;
+  background-color: white;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5); 
+  margin-bottom: 20px;
+}
+
+.custom-container {
+  margin-bottom: 20px;
+  
+}
+
+.p-3{
+  background-color: white;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.092); 
+  color: rgba(0, 0, 0, 0.716) !important;
+}
+
+.iconz{
+  color: #EF5C54;
+  font-size: 20px !important;
+}
+
+.book12{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  
+}
+
+.pad1{
+  border-radius: 50px !important;
+  float: right;
+}
+
+.entrust{
+  font-size: 60px;
+}
+
+.servicecon2{
+  width: 80%;
+  margin-left: 10%;
+  background-image: url(../IMAGES/endless-constellation.png);
+  background-size:10%;
+}
 
 
 
@@ -755,6 +880,21 @@ footer ul{
 
   .honor{
     margin-bottom: 20px;
+  }
+  
+  .entrust{
+    font-size: 30px;
+  }
+
+  .pad1{
+    border-radius: 50px !important;
+    float: none;
+  }
+
+  .book12{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
   }
   
 
