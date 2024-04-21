@@ -149,8 +149,8 @@ font-size: 50px;
 
 .sec4{
   padding-top: 50px;
-  background-image: url(../IMAGES/endless-constellation.png);
-  background-size:10%;
+  background-image: url(../IMAGES/bg6.png);
+  background-size:cover;
   padding-bottom: 70px;
  
 }
@@ -332,8 +332,8 @@ font-size: 50px;
 
 .testimonial {
   padding: 50px 0;
-  background-image: url(../IMAGES/endless-constellation.png);
-  background-size:10%;
+  background-image: url(../IMAGES/bg5.jpg);
+  background-size:cover;
 }
 .testimonial-header {
   /* text-align: center; */
@@ -498,6 +498,10 @@ footer ul{
   z-index: 1;
 }
 
+.honor{
+  margin: 1%;
+}
+
 
 .txt1{
   margin-top: 50px;
@@ -630,8 +634,8 @@ footer ul{
 .clients{
   margin-top: 100px;
   padding-bottom: 50px;
-  background-image: url(../IMAGES/endless-constellation.png);
-  background-size:10%;
+  background-image: url(../IMAGES/bg5.jpg);
+  background-size:cover;
 }
 
 /* our team */
@@ -706,8 +710,8 @@ footer ul{
 .awards{
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../IMAGES/endless-constellation.png);
-  background-size:10%;
+  background-image: url(../IMAGES/bg5.jpg);
+  background-size:cover;
 }
 .awardtxt1{
   font-weight: bolder;
@@ -854,8 +858,8 @@ footer ul{
 .servicecon2{
   width: 80%;
   margin-left: 10%;
-  background-image: url(../IMAGES/endless-constellation.png);
-  background-size:10%;
+  background-image: url(../IMAGES/bg5.jpg);
+  background-size:cover;
 }
 
 
@@ -903,4 +907,47 @@ footer ul{
   }
   
 
+}
+
+/* page divider */
+
+
+.astrodivider {
+  margin:64px auto;
+  width:70%; 
+  max-width: 100%;
+  position:relative;
+  margin-top: 100px;
+}
+
+.astrodividermask { 
+    overflow:hidden; height:20px; 
+}
+
+.astrodividermask:after { 
+      content:''; 
+      display:block; margin:-25px auto 0;
+      width:100%; height:25px;  
+        border-radius:125px / 12px;
+       box-shadow:0 0 8px #EF5C54;
+}
+.astrodivider span {
+    width:50px; height:50px; 
+    position:absolute; 
+    bottom:100%; margin-bottom:-25px;
+    left:50%; margin-left:-25px;
+    border-radius:100%;
+   box-shadow:0 2px 4px #EF5C54;
+    background:#fff;
+}
+.astrodivider i {
+    position:absolute;
+    top:4px; bottom:4px;
+    left:4px; right:4px;
+    border-radius:100%;
+    border:1px dashed #EF5C54;
+    text-align:center;
+    line-height:40px;
+    font-style:normal;
+     color:#EF5C54;
 }
